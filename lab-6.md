@@ -25,6 +25,8 @@ A CPU operation on one of these memory-mapped registers is handled roughly as fo
 
 Here is a graphic that appears in the lab that depicts the layout of this system:
 
+<img src="https://github.com/martyall/lab-writeups/blob/main/io-art.png"  width="700" height="500">
+
 ### Example: GPIO
 
 Our SoC takes its GPIO device controller from the open-cores repository. There is an exact specification of the controller included in the RVfpga material. For our purposes, there are a few important properties:
@@ -158,3 +160,5 @@ int main(void)
 ```
 
 Here's a photo demonstrating that it works:
+
+<img src="https://github.com/martyall/lab-writeups/blob/main/button.png"  width="700" height="500">
